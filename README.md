@@ -26,7 +26,7 @@ an Mv3 browser extension to add dark mode back to google websites
 
 **installation instructions**
 
-1. download the [latest release](releases/latest)
+1. download the [latest release](https://github.com/imaperson1060/nocturnal/releases/latest)
 2. extract the zip file into a permanent location (i.e. your documents folder)
    - if the extracted folder is moved, the extension will stop working
 3. in your browser, go to `[browsername]://extensions` (i.e. `chrome://extensions`, `edge://extensions`)
@@ -36,7 +36,7 @@ an Mv3 browser extension to add dark mode back to google websites
 
 <br>
 
-**please [report](issues) any visual issues you find**
+**please [report](https://github.com/imaperson1060/nocturnal/issues) any visual issues you find**
 
 <br>
 
