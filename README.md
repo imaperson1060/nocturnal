@@ -7,7 +7,7 @@ _adjective_
 
 <br>
 
-<img src="icon.png" align="left" width="256" style="border-radius: 50%;">
+<img src="icon.png" width="256" height="256" style="border-radius: 50%;">
 
 <br>
 
