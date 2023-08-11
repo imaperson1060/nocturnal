@@ -1,0 +1,123 @@
+/* Define color pallete */
+:root {
+    --text1: white;
+    --text2: lightgray;
+    --background1: rgb(31, 31, 31);
+    --background2: rgb(20, 20, 20);
+    --background3: rgb(41, 42, 45);
+    --background4: rgba(26, 115, 232, 0.122);
+    --fill1: white; 
+}
+
+/* Body */
+body { background: var(--background1) !important; }
+
+/* Home */
+.GqugBc { content: url(https://cdn.imaperson.dev/nocturnal/classroom/arrow.svg) !important; }
+
+/* Flyout */
+.Tabkde .OX4Vcb { background: var(--background1) !important; }
+.bFjUmb-Ysl7Fe { background: var(--background4) !important; }
+
+/* Navbar */
+.joJglb { background: var(--background1) !important; }
+.gb_j { fill: var(--fill1) !important; }
+
+/* Join page */
+.d3Fkdd { background: var(--background1) !important; }
+.ECOutf, .zaxms { background: var(--background2) !important; }
+
+/* Class selectors */
+.TQYOZc, .SZ0kZe { background: var(--background1) !important; }
+
+/* Calendar */
+.V203cd { background: var(--background2) !important; }
+.VfPpkd-kBDsod>.NMm5M { fill: var(--fill1) !important; }
+
+/* To-do page */
+.r6B9Fd { background: var(--background2) !important; }
+.VfPpkd-rymPhb-ibnC6b-OWXEXe-gk6SMd { background: var(--background4) !important; } /* Active selection */
+.MCs1Pd:not(.VfPpkd-rymPhb-ibnC6b-OWXEXe-gk6SMd):hover, .MCs1Pd:not(.VfPpkd-rymPhb-ibnC6b-OWXEXe-gk6SMd):focus { background: var(--background3) !important; }
+
+/* Secondary navbar */
+.KEDCCd { background: var(--background1) !important; }
+.wZTANe .J1raN { color: var(--text2) !important; }
+.UISY8d-Ysl7Fe:hover, .UISY8d-Ysl7Fe:focus, .J1raN:hover, .J1raN:focus { background: var(--background3) !important; }
+.e6pQl { background: var(--background3) !important; }
+
+/* Upcoming work widget */
+.d4Fe0d { background: var(--background2) !important; }
+
+/* Class header */
+.n0p5v { background: var(--background2) !important; }
+
+/* Stream posts */
+.qk0lee, .hgjBDc, .vnnr5e>*, .kdCdqc, .n4xnA, .s2g3Xd, .oh9CFb { background: var(--background2) !important; }
+
+/* Stream post context menu */
+.qjTEB, .XvhY1d { background: var(--background2) !important; }
+.FwR7Pc { background: var(--background3) !important; }
+
+/* Classwork */
+.tUJKGd:not(.xp2dJ):not(.rZXyy):hover .idtp4e, .tUJKGd:not(.xp2dJ) :focus-within.idtp4e { background: var(--background3) !important; } /* No clue why spaces are necessary but for some reason Google Classroom doesn't accept the selector without them */
+.ZoT1D:focus-within.boxOzd { background: var(--background3) !important; }
+.uQ3ESd { background: var(--background2) !important; }
+
+/* Classwork details */
+.jrhqBd, .GWZ7yf, .UW3s6d, .O9YpHb { background: var(--background2) !important; }
+.r0VQac, .M4LFnf { background: var(--background1) !important; }
+
+/* Archived class stripes */
+.Tc9hUd { overflow: hidden; }
+
+/* Archived classes context menu */
+.q6oraf { background: var(--background2) !important; }
+.VfPpkd-ksKsZd-mWPk3d-OWXEXe-Tv8l5d-lJfZMc:not(.JRosVd, .oxacD, .eT1oJ, .swXlm) { background: var(--background3) !important; }
+
+/* Archived class banner */
+.geqPvd, .VfPpkd-WLXbod { background: var(--background1) !important; }
+
+/* Settings */
+.FLgDTb { background: var(--background2) !important; }
+
+
+/* Class creation - teacher only */
+.I7OXgf, .fyExH, .eJy6Bb { background: var(--background2) !important; }
+.gOPnwc { background: var(--background1) !important; }
+
+/* Class creation guide - teacher only */
+.iph-dialog { background: var(--background2) !important; }
+
+/* Class customize buttons - teacher only*/
+.uArJ5e:not(.kCyAyd), .wlZwYd { background: var(--background1) !important; }
+
+/* Stream settings - teacher only */
+.MdjMac, .XKbOjc, .n9IS1, .WmnPA { background: var(--background2) !important; }
+.NFUcsb:not(.df5yGe), .VfPpkd-TkwUic { background: var(--background1) !important; }
+
+/* Create assignment */
+.hja3X, .uWetjb, .Yalane, .Y6Mzcf, .cnOaDb:not(.I9OJHe), .ZSrdFd, .RPt7lf, .XaepId, .vTcY1d, .Yzgtqe, .jgvuAb, .OA0qNb { background: var(--background1) !important; }
+.Sl8ssb, .XZDC9d, .cLpBac, .y2d25, .VfPpkd-TkwUic { background: var(--background2) !important; }
+.MocG8c:hover { background: var(--background3) !important; }
+.MocG8c[aria-selected=true] { background: var(--background4) !important; }
+
+
+/* Switch accounts dialog */
+.tCD5Mc { background: var(--background1) !important; }
+.sPtISb { background: var(--background2) !important; }
+
+
+/* All text fields */
+h1, h2, h3, p, label, li, th, td, span, div, a, input, textarea, .editable { color: var(--text1) !important; }
+
+/* All icons */
+.NMm5M:not(.hhikbc) { fill: var(--fill1) !important; }
+
+/* Scrollbar */
+*::-webkit-scrollbar { width: 10px; }
+*::-webkit-scrollbar-track { background: var(--background2); }
+*::-webkit-scrollbar-thumb {
+    background: var(--text1) !important;
+    border-radius: 20px;
+    border: 3px solid gray;
+}

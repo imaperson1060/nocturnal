@@ -1,0 +1,19 @@
+{
+	"manifest_version": 3,
+	"name": "Nocturnal",
+	"version": "1.0.0",
+	"description": "A dark theme for Google websites",
+	"author": "me@imaperson.dev",
+	"icons": { "128": "icon_128.png" },
+	"permissions": [ "storage", "tabs" ],
+
+	"action": { "default_popup": "popup.html" },
+	"content_scripts": [{
+		"js": [ "content.js" ],
+		"matches": [ "https://*.google.com/*" ]
+	}],
+	"web_accessible_resources": [{
+		"resources": [ "css/classroom.css" ],
+		"matches": [ "https://*.google.com/*" ]
+	}]
+}
