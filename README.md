@@ -20,6 +20,7 @@ an Mv3 browser extension to add dark mode back to google websites
 **Which sites are supported?**
 
 - [x] google classroom
+- [x] google domains
 - more coming soon
 
 <br>
