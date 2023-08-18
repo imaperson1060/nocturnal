@@ -1,0 +1,289 @@
+/* Define color pallete */
+:root {
+    --text1: white;
+    --text2: lightgray;
+    --background1: rgb(31, 31, 31);
+    --background2: rgb(20, 20, 20);
+    --background3: rgb(41, 42, 45);
+    --background4: rgba(26, 115, 232, 0.122);
+    --background5: rgb(60, 65, 70);
+    --fill1: white; 
+}
+
+/* Body */
+body { background: var(--background1) !important; }
+
+/* Flyout */
+.mdc-list-item--activated { background: var(--background4) !important; }
+
+/* Navbar */
+header { background: var(--background1) !important; }
+.gb_Ec { fill: var(--fill1) !important; }
+.gb_Dc { content: url(https://cdn.imaperson.dev/nocturnal/domains/logo.svg) !important; }
+
+/* Search for domains */
+findy-bar { background: var(--background2) !important; }
+mat-card, mat-expansion-panel-header { background: var(--background2) !important; }
+mat-expansion-panel { border: 1px solid rgb(218, 220, 224) !important; }
+tld-explorer-card { border: 1px solid rgb(218, 220, 224) !important; }
+.mat-expansion-panel { background: transparent !important; }
+dreg-flyout-tag>.mat-mdc-button { background: var(--background2) !important; }
+.mat-mdc-dialog-surface { background: var(--background1) !important; }
+.mat-expansion-panel-body, .expansion-panel-body { background: var(--background2) !important; }
+.mat-mdc-select-panel { background: var(--background2) !important; }
+.mdc-list-item--selected { background: var(--background4) !important; }
+mat-sidenav { background: var(--background1) !important; }
+.mat-mdc-text-field-wrapper { background: var(--background2) !important; }
+mat-chip-option { background: var(--background4) !important; }
+
+/* My domains */
+manage-domains-table>cdk-table>div { background: var(--background2) !important; }
+hd-manage-root>div>div>xap-filter-bar>div, hd-manage-root>div>div>div>hd-manage-table>table { background: var(--background2) !important; }
+new-domain-button>div>a { background: var(--background2) !important; }
+.xap-filterbar-menu-autocomplete, .hd-manage-columns-menu, .mat-mdc-menu-panel { background: var(--background1) !important; }
+contact-info-edit-form>form>div>collapsible-contact-info>section>div>h3.contact-name { background: var(--background1) !important; }
+/* .gmat-subtitle-1.contact-name { background: var(--background1) !important; } */
+
+/* Domain overview */
+domain-scorecard>dreg-scorecard>div,
+guided-journey-stepper>mat-vertical-stepper { background: var(--background2) !important; }
+button:disabled>span>span { color: rgba(0, 0, 0, .26) !important; }
+.placeholder-row>div { background: var(--background1) !important; }
+
+/* Domain registration settings */
+button:disabled>mat-icon>svg { fill: rgba(0, 0, 0, .26) !important; }
+
+/* Domain DNS */
+dns-record-table>dns-record-table-desktop>table,
+name-servers-table>table { background: var(--background2) !important; }
+
+/* Domain reports */
+summary-card>dreg-scorecard>div { background: var(--background2) !important; }
+.summary-heading>span>mat-icon>svg {
+    color: #1e8e3e !important;
+    fill: currentColor !important;
+}
+queries-card>mat-card>div>table,
+audience-card>mat-card>div>table,
+audience-card>mat-card>div>div>table,
+pages-card>mat-card>div>table { background: var(--background2) !important; }
+
+/* Domain email */
+.service-icons { content: url(https://cdn.imaperson.dev/nocturnal/domains/gsuite.svg) !important; }
+.placeholder { background: var(--background1) !important; }
+
+/* Transfer page */
+.steps-connecting-line { background: var(--background2) !important; }
+.step-icon {
+    background: var(--background2) !important;
+    border: 8px solid var(--background1) !important;
+}
+.external-transfer>.external-transfer-stepper-container>mat-vertical-stepper { background: inherit !important; }
+.external-transfer>.external-transfer-stepper-container, .external-transfer>.right-card>transfer-promo-card>promo-card { background: var(--background2) !important; }
+/* .promo-card-image>source { src: url(https://cdn.imaperson.dev/nocturnal/domains/transfer_2x.webp) !important; } idk how to alter the srcset attribute */
+.promo-card-image>img { content: url(https://cdn.imaperson.dev/nocturnal/domains/transfer_1x.webp) !important; }
+.gmat-subtitle-1 { background: var(--background2) !important; }
+.gmat-caption { color: var(--text1) !important; }
+mat-card.buyflow-expanded { background: white !important; }
+.buyflow-header { background: transparent !important; }
+.review-purchase { color: #3c4043 !important; }
+checkout-whois-form>.form-title { background: transparent !important; }
+
+/* Billing page */
+invoice-table>table {
+    background: var(--background1) !important;
+    border: 1px solid rgb(218, 220, 224) !important;
+}
+
+/* Account page */
+mat-panel-title, management-card-content { color: var(--text1) !important; }
+
+
+/* All text fields */
+header, h1, h2, p, a, span, div, th, td, cdk-header-cell, button, input, textarea { color: var(--text1) !important; }
+
+/* All icons */
+svg { fill: var(--fill1) !important; }
+.mdc-circular-progress__determinate-circle-graphic>circle,
+.mdc-circular-progress__indeterminate-circle-graphic>circle { fill: transparent !important; }
+
+/* Banners */
+.xap-callout-notify, .xap-callout-caution { background: rgba(148, 87, 0, 0.16) !important; }
+.xap-callout-warn { background: #EA4335 !important; }
+.xap-callout-confirm { background: #34A853 !important; }
+
+/* Scrollbar */
+*::-webkit-scrollbar { width: 10px; }
+*::-webkit-scrollbar-track { background: var(--background2); }
+*::-webkit-scrollbar-thumb {
+    background: var(--text1) !important;
+    border-radius: 20px;
+    border: 3px solid gray;
+}
+
+
+
+/* domains.google specific styles */
+
+/* Navbar */
+header>.header__content { background: var(--background1) !important; }
+a[data-g-label="Logo"]>img { content: url(https://cdn.imaperson.dev/nocturnal/domains/logo.svg) !important; }
+.domain-search__input { background: var(--background2) !important; }
+.header__subnav { background: var(--background1) !important; }
+
+/* Domain search */
+.hero__search input {
+    background: var(--background2) !important;
+    background-image: url(https://cdn.imaperson.dev/nocturnal/domains/search_icon.svg) !important;
+    background-position: 20px center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* More info */
+.touts-columns { background: var(--background3) !important; }
+
+/* SVG: https://cdn.imaperson.dev/nocturnal/domains/getStartedDomain.svg */
+/* https://www.diffchecker.com/U5nfn9cM/ */
+g[clip-path="url(#__lottie_element_4)"]>g:nth-child(1)>rect { fill: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_4)"]>g:nth-child(3)>g>path[fill="rgb(245,245,245)"] { fill: var(--background2) !important; }
+g[clip-path="url(#__lottie_element_90)"]>g:nth-child(1)>g>path { fill: var(--background3) !important; }
+g[mask="url(#__lottie_element_105)"]>g>g>path { fill: var(--background5) !important; }
+g[clip-path="url(#__lottie_element_90)"]>g:nth-child(4)>g>path { fill: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_90)"]>g:nth-child(6)>g>path { fill: var(--background1) !important; }
+
+/* SVG: https://cdn.imaperson.dev/nocturnal/domains/getStartedEmail.svg */
+/* https://www.diffchecker.com/rRS0ikXv/ */
+g[clip-path="url(#__lottie_element_233)"]>g:nth-child(1)>rect { fill: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_233)"]>g:nth-child(5)>g>path { fill: var(--background5) !important; }
+g[clip-path="url(#__lottie_element_233)"]>g:nth-child(6)>g>path { fill: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_233)"]>g:nth-child(7)>g>path { fill: var(--background2) !important; }
+g[clip-path="url(#__lottie_element_433)"]>g:nth-child(1)>g>path { fill: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_433)"]>g:nth-child(5)>g>path { fill: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_420)"]>g:nth-child(3)>g>path { fill: var(--background3) !important; }
+
+/* SVG: https://cdn.imaperson.dev/nocturnal/domains/getStartedDesign.svg */
+/* https://www.diffchecker.com/psnNUQcX/ */
+g[clip-path="url(#__lottie_element_516)"]>g:nth-child(1)>rect { fill: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_518)"]>g:nth-child(1)>rect { fill: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_518)"]>g:nth-child(3)>g>path { fill: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_518)"]>g:nth-child(6)>g>path { fill: var(--background5) !important; }
+g[clip-path="url(#__lottie_element_784)"]>g:nth-child(1)>g>path { fill: var(--background5) !important; }
+g[clip-path="url(#__lottie_element_750)"]>g:nth-child(1)>g>path { fill: var(--background2) !important; }
+g[clip-path="url(#__lottie_element_750)"]>g:nth-child(3)>g>path { fill: rgb(66, 103, 210) !important; }
+g[clip-path="url(#__lottie_element_750)"]>g:nth-child(4)>g>path { stroke: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_750)"]>g:nth-child(5)>g>path { stroke: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_750)"]>g:nth-child(6)>g>path { stroke: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_750)"]>g:nth-child(7)>g>path { fill: var(--background2) !important; }
+g[clip-path="url(#__lottie_element_680)"]>g:nth-child(2)>g>path { stroke: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_680)"]>g:nth-child(3)>g>path { stroke: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_626)"]>g:nth-child(1)>g>path { fill: var(--background2) !important; }
+g[clip-path="url(#__lottie_element_601)"]>g:nth-child(1)>g>path { fill: var(--background2) !important; }
+g[clip-path="url(#__lottie_element_575)"]>g:nth-child(2)>g>path { fill: var(--background2) !important; }
+
+/* SVG: https://cdn.imaperson.dev/nocturnal/domains/getStartedAds.svg */
+/* https://www.diffchecker.com/oy4omyER/ */
+g[clip-path="url(#__lottie_element_957)"]>g:nth-child(1)>rect { fill: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_959)"]>g:nth-child(1)>rect { fill: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_1156)"]>g:nth-child(1)>g>path { fill: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_1180)"]>g:nth-child(3)>g>path { stroke: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_1180)"]>g:nth-child(4)>g>path { stroke: var(--background3) !important; }
+g[mask="url(#__lottie_element_1186)"]>g:nth-child(1)>g>path { fill: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_1027)"]>g:nth-child(1)>g>path {
+    fill-opacity: 1 !important;
+    fill: var(--background2) !important;
+}
+g[clip-path="url(#__lottie_element_1031)"]>g:nth-child(1)>g>path { fill: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_1031)"]>g:nth-child(2)>g>path { fill: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_970)"]>g:nth-child(1)>g>path { fill: var(--background5) !important; }
+g[clip-path="url(#__lottie_element_970)"]>g:nth-child(2)>g>path { fill: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_970)"]>g:nth-child(3)>g>path { stroke: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_970)"]>g:nth-child(4)>g>path { fill: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_970)"]>g:nth-child(5)>g:nth-child(1)>path { fill: var(--text1) !important; }
+g[clip-path="url(#__lottie_element_970)"]>g:nth-child(5)>g:nth-child(2)>path { fill: var(--text1) !important; }
+g[clip-path="url(#__lottie_element_970)"]>g:nth-child(6)>g>path { fill: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_964)"]>g:nth-child(2)>g>path { fill: var(--background1) !important; }
+
+/* TLDs */
+.tld-grid { background: var(--background3) !important; }
+.tld-grid__grid__filters__button { background: var(--background2) !important; }
+.tld-grid__grid__categories__category__item { background: var(--background2) !important; }
+
+/* Learn more */
+.options__cards__card { background: var(--background2) !important; }
+.button--white { background: #1a73e8 !important; }
+
+/* Overflowing clouds */
+.frame__images { overflow: hidden !important; }
+
+/* Footer */
+.footer { background: var(--background3) !important; }
+.formbox__submit__cta { background: #1a73e8 !important; }
+.footer-links__meta__languages>select { background: inherit !important; }
+
+/* Domain search */
+.toggle-button:not(.toggle-button--active) { background: var(--background2) !important; }
+
+/* Professional email */
+g[clip-path="url(#__lottie_element_4)"]>g:nth-child(5)>g>path[fill="rgb(196,196,196)"] { fill: var(--background5) !important; }
+g[clip-path="url(#__lottie_element_4)"]>g:nth-child(6)>g>path[fill="rgb(245,245,245)"] { fill: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_4)"]>g:nth-child(7)>g>path[fill="rgb(170,170,170)"] { fill: var(--background2) !important; }
+g[clip-path="url(#__lottie_element_204)"]>g:nth-child(1)>g>path { fill: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_204)"]>g:nth-child(5)>g>path { fill: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_191)"]>g:nth-child(3)>g>path { fill: var(--background3) !important; }
+.table-and-chapters__table>li:nth-child(2)>picture>img { content: url(https://cdn.imaperson.dev/nocturnal/domains/docs.svg) !important; }
+.table-and-chapters__table>li:nth-child(4)>picture>img { content: url(https://cdn.imaperson.dev/nocturnal/domains/slides.svg) !important; }
+.table-and-chapters__table>li:nth-child(6)>picture>img { content: url(https://cdn.imaperson.dev/nocturnal/domains/forms.svg) !important; }
+.table-and-chapters__table>li:nth-child(8)>picture>img { content: url(https://cdn.imaperson.dev/nocturnal/domains/sheets.svg) !important; }
+.table-and-chapters__table>li:nth-child(10)>picture>img { content: url(https://cdn.imaperson.dev/nocturnal/domains/sites.svg) !important; }
+
+/* Website design */
+g[clip-path="url(#__lottie_element_2)"]>g:nth-child(1)>rect { fill: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_2)"]>g:nth-child(2)>g:nth-child(3)>g>path { fill: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_2)"]>g:nth-child(2)>g:nth-child(6)>g>path { fill: var(--background5) !important; }
+g[clip-path="url(#__lottie_element_270)"]>g:nth-child(1)>g>path { fill: var(--background5) !important; }
+g[clip-path="url(#__lottie_element_236)"]>g:nth-child(1)>g>path { fill: var(--background2) !important; }
+g[clip-path="url(#__lottie_element_236)"]>g:nth-child(3)>g>path { fill: rgb(66, 103, 210) !important; }
+g[clip-path="url(#__lottie_element_236)"]>g:nth-child(4)>g>path { stroke: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_236)"]>g:nth-child(5)>g>path { stroke: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_236)"]>g:nth-child(6)>g>path { stroke: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_236)"]>g:nth-child(7)>g>path { fill: var(--background2) !important; }
+g[clip-path="url(#__lottie_element_166)"]>g:nth-child(2)>g>path { stroke: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_166)"]>g:nth-child(3)>g>path { stroke: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_112)"]>g:nth-child(1)>g>path { fill: var(--background2) !important; }
+g[clip-path="url(#__lottie_element_87)"]>g:nth-child(1)>g>path { fill: var(--background2) !important; }
+g[clip-path="url(#__lottie_element_61)"]>g:nth-child(2)>g>path { fill: var(--background2) !important; }
+.carousel-gallery__carousel__slide__modal__content, .ak-modal-x { background: var(--background2) !important; }
+.panels { background: var(--background3) !important; }
+.panels__panel { background: var(--background2) !important; }
+.panels__panel__banner-image { background: transparent !important; }
+.panels__grid>.panels__panel:nth-child(1)>.panels__panel__banner-image>picture>img { content: url(https://cdn.imaperson.dev/nocturnal/domains/squarespace.png) !important; }
+.panels__grid>.panels__panel:nth-child(2)>.panels__panel__banner-image>picture>img { content: url(https://cdn.imaperson.dev/nocturnal/domains/bluehost-wordpress.png) !important; }
+.panels__grid>.panels__panel:nth-child(3)>.panels__panel__banner-image>picture>img { content: url(https://cdn.imaperson.dev/nocturnal/domains/shopify.png) !important; }
+.panels__grid>.panels__panel:nth-child(4)>.panels__panel__banner-image>picture>img { content: url(https://cdn.imaperson.dev/nocturnal/domains/weebly.svg) !important; }
+
+/* Google Sites */
+.carousel-gallery--grey { background: var(--background3) !important; }
+
+/* Online ads */
+g[clip-path="url(#__lottie_element_201)"]>g:nth-child(1)>g>path { fill: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_225)"]>g:nth-child(3)>g>path { stroke: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_225)"]>g:nth-child(4)>g>path { stroke: var(--background3) !important; }
+g[mask="url(#__lottie_element_231)"]>g:nth-child(1)>g>path { fill: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_72)"]>g:nth-child(1)>g>path {
+    fill-opacity: 1 !important;
+    fill: var(--background2) !important;
+}
+g[clip-path="url(#__lottie_element_76)"]>g:nth-child(1)>g>path { fill: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_76)"]>g:nth-child(2)>g>path { fill: var(--background3) !important; }
+g[clip-path="url(#__lottie_element_15)"]>g:nth-child(1)>g>path { fill: var(--background5) !important; }
+g[clip-path="url(#__lottie_element_15)"]>g:nth-child(2)>g>path { fill: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_15)"]>g:nth-child(3)>g>path { stroke: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_15)"]>g:nth-child(4)>g>path { fill: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_15)"]>g:nth-child(5)>g:nth-child(1)>path { fill: var(--text1) !important; }
+g[clip-path="url(#__lottie_element_15)"]>g:nth-child(5)>g:nth-child(2)>path { fill: var(--text1) !important; }
+g[clip-path="url(#__lottie_element_15)"]>g:nth-child(6)>g>path { fill: var(--background1) !important; }
+g[clip-path="url(#__lottie_element_9)"]>g:nth-child(2)>g>path { fill: var(--background1) !important; }
+
+/* Learn more page */
+.options__toggles__toggle:not(.options__toggles__toggle--active) { background: var(--background2) !important; }
+.options__toggles__toggle.options__toggles__toggle--active { background: #1967d2 !important; }

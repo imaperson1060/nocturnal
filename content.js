@@ -10,6 +10,10 @@ async function setTheme() {
 			if (nocturnal.classroom && !document.getElementById("nocturnal")) document.querySelector("head").appendChild(createLink("css/classroom.css"));
 			else if (!nocturnal.classroom) document.getElementById("nocturnal")?.remove();
 			break;
+		case "domains":
+			if (nocturnal.domains && !document.getElementById("nocturnal")) document.querySelector("head").appendChild(createLink("css/domains.css"));
+			else if (!nocturnal.domains) document.getElementById("nocturnal")?.remove();
+			break;
 	}
 }
 

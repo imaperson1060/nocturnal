@@ -5,8 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		check.addEventListener("change", e => {
 			chrome.storage.sync.set({ [e.target.id]: e.target.checked });
 
-			chrome.tabs.query({ url: "https://*.google.com/*" }, tabs => {
-				chrome.tabs.sendMessage(tabs[0].id, "nocturnalUpdate");
+			chrome.tabs.query({ url: [ "https://*.google.com/*", "https://*.google/*" ] }, tabs => {
 				tabs.forEach(tab => chrome.tabs.sendMessage(tab.id, "nocturnalUpdate"));
 			});
 		});
