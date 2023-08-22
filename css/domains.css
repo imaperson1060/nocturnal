@@ -11,7 +11,7 @@
 }
 
 /* Body */
-body { background: var(--background1) !important; }
+body:not(:has(main#af-error-container)) { background: var(--background1) !important; }
 
 /* Flyout */
 .mdc-list-item--activated { background: var(--background4) !important; }

@@ -10,7 +10,7 @@
 }
 
 /* Body */
-body { background: var(--background1) !important; }
+body:not(:has(main#af-error-container)) { background: var(--background1) !important; }
 
 /* Home */
 .GqugBc { content: url(https://cdn.imaperson.dev/nocturnal/classroom/arrow.svg) !important; }
@@ -121,3 +121,7 @@ h1, h2, h3, p, label, li, th, td, span, div, a, input, textarea, .editable { col
     border-radius: 20px;
     border: 3px solid gray;
 }
+
+
+/* 404 */
+html:has(body>main#af-error-container) { background: var(--background1) !important; }

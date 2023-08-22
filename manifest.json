@@ -8,10 +8,17 @@
 	"permissions": [ "storage", "tabs" ],
 
 	"action": { "default_popup": "popup.html" },
-	"content_scripts": [{
-		"js": [ "content.js" ],
-		"matches": [ "https://*.google.com/*", "https://*.google/*" ]
-	}],
+	"content_scripts": [
+		{
+			"js": [ "content.js" ],
+			"matches": [ "https://*.google.com/*", "https://*.google/*" ]
+		},
+		{
+			"js": [ "content.js" ],
+			"all_frames": true,
+			"matches": [ "https://*.google.com/*", "https://*.google/*" ]
+		}
+	],
 	"web_accessible_resources": [{
 		"resources": [ "assets/*", "css/*" ],
 		"matches": [ "https://*.google.com/*", "https://*.google/*" ]
