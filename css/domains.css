@@ -45,10 +45,11 @@ contact-info-edit-form>form>div>collapsible-contact-info>section>div>h3.contact-
 /* .gmat-subtitle-1.contact-name { background: var(--background1) !important; } */
 
 /* Domain overview */
+.veil { background: var(--background1) !important; }
 domain-scorecard>dreg-scorecard>div,
 guided-journey-stepper>mat-vertical-stepper { background: var(--background2) !important; }
 button:disabled>span>span { color: rgba(0, 0, 0, .26) !important; }
-.placeholder-row>div { background: var(--background1) !important; }
+.placeholder-row>div, .loading-placeholder, .loading-text { background: var(--background1) !important; }
 
 /* Domain registration settings */
 button:disabled>mat-icon>svg { fill: rgba(0, 0, 0, .26) !important; }
@@ -56,6 +57,10 @@ button:disabled>mat-icon>svg { fill: rgba(0, 0, 0, .26) !important; }
 /* Domain DNS */
 dns-record-table>dns-record-table-desktop>table,
 name-servers-table>table { background: var(--background2) !important; }
+.mat-mdc-autocomplete-panel { background: var(--background1) !important; }
+
+/* Domain website */
+.build-image { background-image: url(https://cdn.imaperson.dev/nocturnal/domains/gmat_build_1x.webp) !important; }
 
 /* Domain reports */
 summary-card>dreg-scorecard>div { background: var(--background2) !important; }
@@ -122,6 +127,10 @@ svg { fill: var(--fill1) !important; }
 }
 
 
+/* 404 */
+html:has(body>main#af-error-container) { background: var(--background1) !important; }
+
+
 
 /* domains.google specific styles */
 
@@ -139,8 +148,7 @@ a[data-g-label="Logo"]>img { content: url(https://cdn.imaperson.dev/nocturnal/do
     background-repeat: no-repeat !important;
 }
 
-/* More info */
-.touts-columns { background: var(--background3) !important; }
+.frame--full-bleed>div>* { background: var(--background3) !important;}
 
 /* SVG: https://cdn.imaperson.dev/nocturnal/domains/getStartedDomain.svg */
 /* https://www.diffchecker.com/U5nfn9cM/ */
@@ -204,7 +212,6 @@ g[clip-path="url(#__lottie_element_970)"]>g:nth-child(6)>g>path { fill: var(--ba
 g[clip-path="url(#__lottie_element_964)"]>g:nth-child(2)>g>path { fill: var(--background1) !important; }
 
 /* TLDs */
-.tld-grid { background: var(--background3) !important; }
 .tld-grid__grid__filters__button { background: var(--background2) !important; }
 .tld-grid__grid__categories__category__item { background: var(--background2) !important; }
 
@@ -287,3 +294,6 @@ g[clip-path="url(#__lottie_element_9)"]>g:nth-child(2)>g>path { fill: var(--back
 /* Learn more page */
 .options__toggles__toggle:not(.options__toggles__toggle--active) { background: var(--background2) !important; }
 .options__toggles__toggle.options__toggles__toggle--active { background: #1967d2 !important; }
+
+/* .llc TLD */
+.quote__content { background: var(--background3) !important; }
