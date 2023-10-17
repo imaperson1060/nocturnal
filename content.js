@@ -14,6 +14,10 @@ async function setTheme() {
 			if (nocturnal.domains && !document.getElementById("nocturnal")) document.querySelector("head").appendChild(createLink("css/domains.css"));
 			else if (!nocturnal.domains) document.getElementById("nocturnal")?.remove();
 			break;
+		case "ogs":
+			if (nocturnal.ogs && !document.getElementById("nocturnal")) document.querySelector("head").appendChild(createLink("css/ogs.css"));
+			else if (!nocturnal.ogs) document.getElementById("nocturnal")?.remove();
+			break;
 	}
 }
 
