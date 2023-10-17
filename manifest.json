@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "Nocturnal",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "A dark theme for Google websites",
 	"author": "me@imaperson.dev",
 	"icons": { "128": "icon_128.png" },

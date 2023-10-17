@@ -21,6 +21,7 @@ an Mv3 browser extension to add dark mode back to google websites
 
 - [x] google classroom
 - [x] google domains
+- [x] google apps popup
 - more coming soon
 
 <br>
