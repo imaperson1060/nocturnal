@@ -43,6 +43,7 @@ new-domain-button>div>a { background: var(--background2) !important; }
 .xap-filterbar-menu-autocomplete, .hd-manage-columns-menu, .mat-mdc-menu-panel { background: var(--background1) !important; }
 contact-info-edit-form>form>div>collapsible-contact-info>section>div>h3.contact-name { background: var(--background1) !important; }
 /* .gmat-subtitle-1.contact-name { background: var(--background1) !important; } */
+new-domain-button>.enclosing-container { background: var(--background2) !important; }
 
 /* Domain overview */
 .veil { background: var(--background1) !important; }
