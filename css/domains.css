@@ -19,7 +19,7 @@ body:not(:has(main#af-error-container)) { background: var(--background1) !import
 /* Navbar */
 header { background: var(--background1) !important; }
 .gb_Ec { fill: var(--fill1) !important; }
-.gb_Kc { content: url(https://cdn.imaperson.dev/nocturnal/domains/logo.svg) !important; }
+.gb_Kc, .gb_Mc { content: url(https://cdn.imaperson.dev/nocturnal/domains/logo.svg) !important; }
 
 /* Search for domains */
 findy-bar { background: var(--background2) !important; }
